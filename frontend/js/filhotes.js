@@ -98,7 +98,5 @@ function limparFormulario() {
 
 document.getElementById("btnLimpar").addEventListener("click", limparFormulario);
 
-
   
-
 carregarFilhotes();
