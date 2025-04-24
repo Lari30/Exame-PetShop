@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Cadastro de Filhotes</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+</head>
+<body class="container mt-5">
+  <h2>Cadastro de Filhotes</h2>
+  <form id="formFilhote">
+    <input type="text" id="especie" class="form-control mb-2" placeholder="Espécie" required>
+    <input type="text" id="raca" class="form-control mb-2" placeholder="Raça" required>
+    <button class="btn btn-success" type="submit" id="btnCadastrar">Cadastrar Filhote</button>
+    <button type="button" class="btn btn-secondary" id="btnLimpar">Limpar</button>
+
+  </form>
+
+  <hr>
+  <h4>Filhotes Cadastrados</h4>
+  <ul id="listaFilhotes" class="list-group mt-3"></ul>
+
+  <script src="js/filhotes.js"></script>
+</body>
+</html>
